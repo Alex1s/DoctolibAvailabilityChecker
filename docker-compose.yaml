@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  doctolibavailabilitychecker:
+    build: .
+    volumes:
+      - database:/database
+    env_file:
+      - .env
+volumes:
+  database:

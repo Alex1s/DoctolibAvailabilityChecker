@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "date-and-time": "^2.4.1",
+    "node-telegram-bot-api": "^0.59.0"
+  }
+}
