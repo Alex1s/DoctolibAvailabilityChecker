@@ -6,5 +6,6 @@ services:
       - database:/database
     env_file:
       - .env
+    restart: unless-stopped
 volumes:
   database:
